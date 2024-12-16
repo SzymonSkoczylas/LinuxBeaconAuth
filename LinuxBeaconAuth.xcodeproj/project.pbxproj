@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2316E12D1027CA00A07DB6 /* EstimoteUWB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2316E02D1027CA00A07DB6 /* EstimoteUWB.xcframework */; };
+		3A2316E22D1027CA00A07DB6 /* EstimoteUWB.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2316E02D1027CA00A07DB6 /* EstimoteUWB.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2316C12D1026A800A07DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2316A22D1026A700A07DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2316A92D1026A700A07DB6;
+			remoteInfo = LinuxBeaconAuth;
+		};
+		3A2316CB2D1026A800A07DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2316A22D1026A700A07DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2316A92D1026A700A07DB6;
+			remoteInfo = LinuxBeaconAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A2316E32D1027CA00A07DB6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3A2316E22D1027CA00A07DB6 /* EstimoteUWB.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A2316AA2D1026A700A07DB6 /* LinuxBeaconAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinuxBeaconAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2316C02D1026A800A07DB6 /* LinuxBeaconAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinuxBeaconAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2316CA2D1026A800A07DB6 /* LinuxBeaconAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinuxBeaconAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2316DF2D10276B00A07DB6 /* EstimoteUWB.xcframework.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = EstimoteUWB.xcframework.zip; sourceTree = "<group>"; };
+		3A2316E02D1027CA00A07DB6 /* EstimoteUWB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = EstimoteUWB.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3A2316D22D1026A800A07DB6 /* Exceptions for "LinuxBeaconAuth" folder in "LinuxBeaconAuth" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3A2316A92D1026A700A07DB6 /* LinuxBeaconAuth */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3A2316AC2D1026A700A07DB6 /* LinuxBeaconAuth */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3A2316D22D1026A800A07DB6 /* Exceptions for "LinuxBeaconAuth" folder in "LinuxBeaconAuth" target */,
+			);
+			path = LinuxBeaconAuth;
+			sourceTree = "<group>";
+		};
+		3A2316C32D1026A800A07DB6 /* LinuxBeaconAuthTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LinuxBeaconAuthTests;
+			sourceTree = "<group>";
+		};
+		3A2316CD2D1026A800A07DB6 /* LinuxBeaconAuthUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LinuxBeaconAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2316A72D1026A700A07DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2316E12D1027CA00A07DB6 /* EstimoteUWB.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2316BD2D1026A800A07DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2316C72D1026A800A07DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2316A12D1026A700A07DB6 = {
+			isa = PBXGroup;
+			children = (
+				3A2316AC2D1026A700A07DB6 /* LinuxBeaconAuth */,
+				3A2316C32D1026A800A07DB6 /* LinuxBeaconAuthTests */,
+				3A2316CD2D1026A800A07DB6 /* LinuxBeaconAuthUITests */,
+				3A2316DE2D10276B00A07DB6 /* Frameworks */,
+				3A2316AB2D1026A700A07DB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2316AB2D1026A700A07DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2316AA2D1026A700A07DB6 /* LinuxBeaconAuth.app */,
+				3A2316C02D1026A800A07DB6 /* LinuxBeaconAuthTests.xctest */,
+				3A2316CA2D1026A800A07DB6 /* LinuxBeaconAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2316DE2D10276B00A07DB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A2316E02D1027CA00A07DB6 /* EstimoteUWB.xcframework */,
+				3A2316DF2D10276B00A07DB6 /* EstimoteUWB.xcframework.zip */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2316A92D1026A700A07DB6 /* LinuxBeaconAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2316D32D1026A800A07DB6 /* Build configuration list for PBXNativeTarget "LinuxBeaconAuth" */;
+			buildPhases = (
+				3A2316A62D1026A700A07DB6 /* Sources */,
+				3A2316A72D1026A700A07DB6 /* Frameworks */,
+				3A2316A82D1026A700A07DB6 /* Resources */,
+				3A2316E32D1027CA00A07DB6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3A2316AC2D1026A700A07DB6 /* LinuxBeaconAuth */,
+			);
+			name = LinuxBeaconAuth;
+			packageProductDependencies = (
+			);
+			productName = LinuxBeaconAuth;
+			productReference = 3A2316AA2D1026A700A07DB6 /* LinuxBeaconAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A2316BF2D1026A800A07DB6 /* LinuxBeaconAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2316D82D1026A800A07DB6 /* Build configuration list for PBXNativeTarget "LinuxBeaconAuthTests" */;
+			buildPhases = (
+				3A2316BC2D1026A800A07DB6 /* Sources */,
+				3A2316BD2D1026A800A07DB6 /* Frameworks */,
+				3A2316BE2D1026A800A07DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2316C22D1026A800A07DB6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A2316C32D1026A800A07DB6 /* LinuxBeaconAuthTests */,
+			);
+			name = LinuxBeaconAuthTests;
+			packageProductDependencies = (
+			);
+			productName = LinuxBeaconAuthTests;
+			productReference = 3A2316C02D1026A800A07DB6 /* LinuxBeaconAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A2316C92D1026A800A07DB6 /* LinuxBeaconAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2316DB2D1026A800A07DB6 /* Build configuration list for PBXNativeTarget "LinuxBeaconAuthUITests" */;
+			buildPhases = (
+				3A2316C62D1026A800A07DB6 /* Sources */,
+				3A2316C72D1026A800A07DB6 /* Frameworks */,
+				3A2316C82D1026A800A07DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2316CC2D1026A800A07DB6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A2316CD2D1026A800A07DB6 /* LinuxBeaconAuthUITests */,
+			);
+			name = LinuxBeaconAuthUITests;
+			packageProductDependencies = (
+			);
+			productName = LinuxBeaconAuthUITests;
+			productReference = 3A2316CA2D1026A800A07DB6 /* LinuxBeaconAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2316A22D1026A700A07DB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3A2316A92D1026A700A07DB6 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					3A2316BF2D1026A800A07DB6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3A2316A92D1026A700A07DB6;
+					};
+					3A2316C92D1026A800A07DB6 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 3A2316A92D1026A700A07DB6;
+					};
+				};
+			};
+			buildConfigurationList = 3A2316A52D1026A700A07DB6 /* Build configuration list for PBXProject "LinuxBeaconAuth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2316A12D1026A700A07DB6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3A2316AB2D1026A700A07DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2316A92D1026A700A07DB6 /* LinuxBeaconAuth */,
+				3A2316BF2D1026A800A07DB6 /* LinuxBeaconAuthTests */,
+				3A2316C92D1026A800A07DB6 /* LinuxBeaconAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2316A82D1026A700A07DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2316BE2D1026A800A07DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2316C82D1026A800A07DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2316A62D1026A700A07DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2316BC2D1026A800A07DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2316C62D1026A800A07DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2316C22D1026A800A07DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2316A92D1026A700A07DB6 /* LinuxBeaconAuth */;
+			targetProxy = 3A2316C12D1026A800A07DB6 /* PBXContainerItemProxy */;
+		};
+		3A2316CC2D1026A800A07DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2316A92D1026A700A07DB6 /* LinuxBeaconAuth */;
+			targetProxy = 3A2316CB2D1026A800A07DB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A2316D42D1026A800A07DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y553VM8ZLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LinuxBeaconAuth/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achim.LinuxBeaconAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A2316D52D1026A800A07DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y553VM8ZLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LinuxBeaconAuth/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achim.LinuxBeaconAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A2316D62D1026A800A07DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A2316D72D1026A800A07DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2316D92D1026A800A07DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y553VM8ZLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achim.LinuxBeaconAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinuxBeaconAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinuxBeaconAuth";
+			};
+			name = Debug;
+		};
+		3A2316DA2D1026A800A07DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y553VM8ZLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achim.LinuxBeaconAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinuxBeaconAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LinuxBeaconAuth";
+			};
+			name = Release;
+		};
+		3A2316DC2D1026A800A07DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y553VM8ZLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achim.LinuxBeaconAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinuxBeaconAuth;
+			};
+			name = Debug;
+		};
+		3A2316DD2D1026A800A07DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y553VM8ZLK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achim.LinuxBeaconAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinuxBeaconAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2316A52D1026A700A07DB6 /* Build configuration list for PBXProject "LinuxBeaconAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2316D62D1026A800A07DB6 /* Debug */,
+				3A2316D72D1026A800A07DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2316D32D1026A800A07DB6 /* Build configuration list for PBXNativeTarget "LinuxBeaconAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2316D42D1026A800A07DB6 /* Debug */,
+				3A2316D52D1026A800A07DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2316D82D1026A800A07DB6 /* Build configuration list for PBXNativeTarget "LinuxBeaconAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2316D92D1026A800A07DB6 /* Debug */,
+				3A2316DA2D1026A800A07DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2316DB2D1026A800A07DB6 /* Build configuration list for PBXNativeTarget "LinuxBeaconAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2316DC2D1026A800A07DB6 /* Debug */,
+				3A2316DD2D1026A800A07DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A2316A22D1026A700A07DB6 /* Project object */;
+}
